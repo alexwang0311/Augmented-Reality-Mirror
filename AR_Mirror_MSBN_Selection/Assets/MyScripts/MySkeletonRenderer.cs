@@ -122,7 +122,7 @@ public class MySkeletonRenderer : MonoBehaviour
      */
     private Astra.JointType selectionJointTypeA = Astra.JointType.LeftHand;     //use which joint(s) type as your selectionJoint
     private Astra.JointType selectionJointTypeB = Astra.JointType.RightHand;
-    public GameObject SelectionJointPrefab;
+    //public GameObject SelectionJointPrefab;
     public static string selectedBoneName = "";
 
     private float baseSpineX = 0, leftHipX = 0, shoulderSpineY = 0, neckY = 0;

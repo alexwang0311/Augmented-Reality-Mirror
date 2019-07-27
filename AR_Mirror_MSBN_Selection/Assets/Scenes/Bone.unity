@@ -359,8 +359,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 102dacdbe91a3bd4f9ca8aafa4084de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  JointPrefab: {fileID: 0}
-  JointRoot: {fileID: 0}
+  JointPrefab: {fileID: 100000, guid: 1190a34979a38ae4db353c77e7cd2281, type: 2}
+  JointRoot: {fileID: 1446205324}
   ToggleSeg: {fileID: 0}
   ToggleSegBody: {fileID: 0}
   ToggleSegBodyHand: {fileID: 0}
@@ -371,37 +371,42 @@ MonoBehaviour:
   ToggleOptimizationBalanced: {fileID: 0}
   ToggleOptimizationMemory: {fileID: 0}
   SliderOptimization: {fileID: 0}
-  _previousTargetFeatures: 3
-  _previousSkeletonProfile: 0
-  _previousSkeletonOptimization: 9
-  Prefab_Head_Neck: {fileID: 0}
-  Prefab_MidSpine_ShoulderSpine: {fileID: 0}
-  Prefab_BaseSpine_MidSpine: {fileID: 0}
-  Prefab_LeftShoulder_LeftElbow: {fileID: 0}
-  Prefab_LeftElbow_LeftWrist: {fileID: 0}
-  Prefab_ShoudlerSpine_LeftShoulder: {fileID: 0}
-  Prefab_ShoulderSpine_RightShoulder: {fileID: 0}
-  Prefab_RightShoulder_RightElbow: {fileID: 0}
-  Prefab_RightElbow_RightWrist: {fileID: 0}
-  Prefab_ShoulderSpine_Neck: {fileID: 0}
-  Prefab_BaseSpine_LeftHip: {fileID: 0}
-  Prefab_LeftHip_LeftKnee: {fileID: 0}
-  Prefab_LeftKnee_LeftFoot: {fileID: 0}
-  Prefab_BaseSpine_RightHip: {fileID: 0}
-  Prefab_RightHip_RightKnee: {fileID: 0}
-  Prefab_RightKnee_RightFoot: {fileID: 0}
-  Prefab_Head_bone: {fileID: 0}
-  Prefab_LeftHand: {fileID: 0}
-  Prefab_RightHand: {fileID: 0}
-  selectionJointTypeA: 4
-  selectionJointTypeB: 7
-  SelectionJointPrefab: {fileID: 0}
-  baseSpineX: 0
-  leftHipX: 0
-  shoulderSpineY: 0
-  neckY: 0
-  horizontalError: 0
-  verticalError: 0
+  Prefab_Head_Neck: {fileID: 1232987121558086, guid: 3acc07f7165eb984d96866d4394824cb,
+    type: 2}
+  Prefab_MidSpine_ShoulderSpine: {fileID: 1643505600021568, guid: 244f0eb6c1c01484a8abe30a20f16f32,
+    type: 2}
+  Prefab_BaseSpine_MidSpine: {fileID: 1940542505492760, guid: db6076adff1342f419c3d78b7b3b918f,
+    type: 2}
+  Prefab_LeftShoulder_LeftElbow: {fileID: 1878650818997902, guid: 8ba5b07f252242c498c0a6070abd5acf,
+    type: 2}
+  Prefab_LeftElbow_LeftWrist: {fileID: 1011503815991606, guid: 3aa97296db41ad347b337dfe2c678427,
+    type: 2}
+  Prefab_ShoudlerSpine_LeftShoulder: {fileID: 1511556746136670, guid: 5660dcd6cffdb0e429a099f127b11610,
+    type: 2}
+  Prefab_ShoulderSpine_RightShoulder: {fileID: 1933337829016554, guid: 95c99fbcffb96e0438203797bc18f65c,
+    type: 2}
+  Prefab_RightShoulder_RightElbow: {fileID: 1878650818997902, guid: 8ba5b07f252242c498c0a6070abd5acf,
+    type: 2}
+  Prefab_RightElbow_RightWrist: {fileID: 1011503815991606, guid: 3aa97296db41ad347b337dfe2c678427,
+    type: 2}
+  Prefab_ShoulderSpine_Neck: {fileID: 1019149159165302, guid: 3e57d166e8c94f14482b178021a9f4d4,
+    type: 2}
+  Prefab_BaseSpine_LeftHip: {fileID: 1901415044764098, guid: 23ad5aea179c0784a95a80ee09e021ea,
+    type: 2}
+  Prefab_LeftHip_LeftKnee: {fileID: 1326787505410280, guid: a39c9186344bf1d4098d2d5f401b5f02,
+    type: 2}
+  Prefab_LeftKnee_LeftFoot: {fileID: 1863632218076670, guid: 924b5d6d64aecb9429d6ca1f94fd458f,
+    type: 2}
+  Prefab_BaseSpine_RightHip: {fileID: 1566752785709934, guid: 10554b580da38564fa71944c4c1be745,
+    type: 2}
+  Prefab_RightHip_RightKnee: {fileID: 1005966235980610, guid: 7da9465b41d335f4e9e1cf9ef8aca745,
+    type: 2}
+  Prefab_RightKnee_RightFoot: {fileID: 1192905060110064, guid: cc5e8232de15ccd42b437f7ed5a04a38,
+    type: 2}
+  Prefab_Head_bone: {fileID: 1232987121558086, guid: 3acc07f7165eb984d96866d4394824cb,
+    type: 2}
+  Prefab_LeftHand: {fileID: 100000, guid: 1190a34979a38ae4db353c77e7cd2281, type: 2}
+  Prefab_RightHand: {fileID: 100000, guid: 1190a34979a38ae4db353c77e7cd2281, type: 2}
 --- !u!4 &699983104
 Transform:
   m_ObjectHideFlags: 0
@@ -411,7 +416,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1446205324}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -587,6 +593,34 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &1446205323
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1446205324}
+  m_Layer: 0
+  m_Name: JointRoot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1446205324
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1446205323}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 699983104}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1864905370
 GameObject:
   m_ObjectHideFlags: 0
