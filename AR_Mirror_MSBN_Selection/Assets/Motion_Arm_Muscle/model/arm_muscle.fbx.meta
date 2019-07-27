@@ -1,0 +1,629 @@
+fileFormatVersion: 2
+guid: 3f940cbb600c3494587d6c3590d468d0
+timeCreated: 1510104140
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: _may_2017_1
+    100002: //RootNode
+    100004: arm_muscles
+    100006: arm_muscles_1
+    100008: arm_muscles_10
+    100010: arm_muscles_11
+    100012: arm_muscles_12
+    100014: arm_muscles_13
+    100016: arm_muscles_14
+    100018: arm_muscles_15
+    100020: arm_muscles_16
+    100022: arm_muscles_17
+    100024: arm_muscles_18
+    100026: arm_muscles_19
+    100028: arm_muscles_2
+    100030: arm_muscles_20
+    100032: arm_muscles_21
+    100034: arm_muscles_22
+    100036: arm_muscles_23
+    100038: arm_muscles_24
+    100040: arm_muscles_25
+    100042: arm_muscles_26
+    100044: arm_muscles_27
+    100046: arm_muscles_28
+    100048: arm_muscles_29
+    100050: arm_muscles_2_2
+    100052: arm_muscles_3
+    100054: arm_muscles_30
+    100056: arm_muscles_31
+    100058: arm_muscles_32
+    100060: arm_muscles_33
+    100062: arm_muscles_4
+    100064: arm_muscles_5
+    100066: arm_muscles_6
+    100068: arm_muscles_7
+    100070: arm_muscles_8
+    100072: arm_muscles_9
+    100074: arm_muscles_v
+    100076: Floor
+    100078: Light_abajisimo
+    100080: Light_arriba
+    100082: Light_arriba_2
+    100084: Light_arriba_3
+    100086: Light_arriba_4
+    100088: Light_arriba_5
+    100090: Light_arriba_6
+    100092: Light_azul_abajo
+    100094: Light_azul_abajo_0
+    100096: Light_azul_abajo_1
+    100098: Light_azul_abajo_2
+    100100: Light_azul_abajo_3
+    100102: luz_alta_2
+    100104: luz_alta_3
+    100106: luz_media_1
+    100108: luz_media_2
+    100110: luz_media_3
+    100112: muscle_arms
+    100114: Plane
+    100116: Plane_3
+    100118: skeletal_Cube_Cube_Cube
+    400000: _may_2017_1
+    400002: //RootNode
+    400004: arm_muscles
+    400006: arm_muscles_1
+    400008: arm_muscles_10
+    400010: arm_muscles_11
+    400012: arm_muscles_12
+    400014: arm_muscles_13
+    400016: arm_muscles_14
+    400018: arm_muscles_15
+    400020: arm_muscles_16
+    400022: arm_muscles_17
+    400024: arm_muscles_18
+    400026: arm_muscles_19
+    400028: arm_muscles_2
+    400030: arm_muscles_20
+    400032: arm_muscles_21
+    400034: arm_muscles_22
+    400036: arm_muscles_23
+    400038: arm_muscles_24
+    400040: arm_muscles_25
+    400042: arm_muscles_26
+    400044: arm_muscles_27
+    400046: arm_muscles_28
+    400048: arm_muscles_29
+    400050: arm_muscles_2_2
+    400052: arm_muscles_3
+    400054: arm_muscles_30
+    400056: arm_muscles_31
+    400058: arm_muscles_32
+    400060: arm_muscles_33
+    400062: arm_muscles_4
+    400064: arm_muscles_5
+    400066: arm_muscles_6
+    400068: arm_muscles_7
+    400070: arm_muscles_8
+    400072: arm_muscles_9
+    400074: arm_muscles_v
+    400076: Floor
+    400078: Light_abajisimo
+    400080: Light_arriba
+    400082: Light_arriba_2
+    400084: Light_arriba_3
+    400086: Light_arriba_4
+    400088: Light_arriba_5
+    400090: Light_arriba_6
+    400092: Light_azul_abajo
+    400094: Light_azul_abajo_0
+    400096: Light_azul_abajo_1
+    400098: Light_azul_abajo_2
+    400100: Light_azul_abajo_3
+    400102: luz_alta_2
+    400104: luz_alta_3
+    400106: luz_media_1
+    400108: luz_media_2
+    400110: luz_media_3
+    400112: muscle_arms
+    400114: Plane
+    400116: Plane_3
+    400118: skeletal_Cube_Cube_Cube
+    2300000: arm_muscles
+    2300002: arm_muscles_1
+    2300004: arm_muscles_10
+    2300006: arm_muscles_11
+    2300008: arm_muscles_12
+    2300010: arm_muscles_13
+    2300012: arm_muscles_14
+    2300014: arm_muscles_15
+    2300016: arm_muscles_16
+    2300018: arm_muscles_17
+    2300020: arm_muscles_18
+    2300022: arm_muscles_19
+    2300024: arm_muscles_2
+    2300026: arm_muscles_20
+    2300028: arm_muscles_21
+    2300030: arm_muscles_22
+    2300032: arm_muscles_23
+    2300034: arm_muscles_24
+    2300036: arm_muscles_25
+    2300038: arm_muscles_26
+    2300040: arm_muscles_27
+    2300042: arm_muscles_28
+    2300044: arm_muscles_29
+    2300046: arm_muscles_2_2
+    2300048: arm_muscles_3
+    2300050: arm_muscles_30
+    2300052: arm_muscles_31
+    2300054: arm_muscles_32
+    2300056: arm_muscles_33
+    2300058: arm_muscles_4
+    2300060: arm_muscles_5
+    2300062: arm_muscles_6
+    2300064: arm_muscles_7
+    2300066: arm_muscles_8
+    2300068: arm_muscles_9
+    2300070: arm_muscles_v
+    2300072: Plane
+    2300074: Plane_3
+    2300076: skeletal_Cube_Cube_Cube
+    3300000: arm_muscles
+    3300002: arm_muscles_1
+    3300004: arm_muscles_10
+    3300006: arm_muscles_11
+    3300008: arm_muscles_12
+    3300010: arm_muscles_13
+    3300012: arm_muscles_14
+    3300014: arm_muscles_15
+    3300016: arm_muscles_16
+    3300018: arm_muscles_17
+    3300020: arm_muscles_18
+    3300022: arm_muscles_19
+    3300024: arm_muscles_2
+    3300026: arm_muscles_20
+    3300028: arm_muscles_21
+    3300030: arm_muscles_22
+    3300032: arm_muscles_23
+    3300034: arm_muscles_24
+    3300036: arm_muscles_25
+    3300038: arm_muscles_26
+    3300040: arm_muscles_27
+    3300042: arm_muscles_28
+    3300044: arm_muscles_29
+    3300046: arm_muscles_2_2
+    3300048: arm_muscles_3
+    3300050: arm_muscles_30
+    3300052: arm_muscles_31
+    3300054: arm_muscles_32
+    3300056: arm_muscles_33
+    3300058: arm_muscles_4
+    3300060: arm_muscles_5
+    3300062: arm_muscles_6
+    3300064: arm_muscles_7
+    3300066: arm_muscles_8
+    3300068: arm_muscles_9
+    3300070: arm_muscles_v
+    3300072: Plane
+    3300074: Plane_3
+    3300076: skeletal_Cube_Cube_Cube
+    4300000: Plane
+    4300002: Plane_3
+    4300004: skeletal_Cube_Cube_Cube
+    4300006: arm_muscles
+    4300008: arm_muscles_2
+    4300010: arm_muscles_3
+    4300012: arm_muscles_4
+    4300014: arm_muscles_5
+    4300016: arm_muscles_6
+    4300018: arm_muscles_7
+    4300020: arm_muscles_8
+    4300022: arm_muscles_9
+    4300024: arm_muscles_10
+    4300026: arm_muscles_11
+    4300028: arm_muscles_12
+    4300030: arm_muscles_13
+    4300032: arm_muscles_1
+    4300034: arm_muscles_2_2
+    4300036: arm_muscles_14
+    4300038: arm_muscles_15
+    4300040: arm_muscles_16
+    4300042: arm_muscles_17
+    4300044: arm_muscles_18
+    4300046: arm_muscles_19
+    4300048: arm_muscles_20
+    4300050: arm_muscles_21
+    4300052: arm_muscles_22
+    4300054: arm_muscles_23
+    4300056: arm_muscles_v
+    4300058: arm_muscles_24
+    4300060: arm_muscles_25
+    4300062: arm_muscles_26
+    4300064: arm_muscles_27
+    4300066: arm_muscles_28
+    4300068: arm_muscles_29
+    4300070: arm_muscles_30
+    4300072: arm_muscles_31
+    4300074: arm_muscles_32
+    4300076: arm_muscles_33
+    7400000: idle
+    7400002: expand
+    7400004: join
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: idle
+      takeName: C4D Animation Take
+      firstFrame: 2
+      lastFrame: 3
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: arm_muscles
+        weight: 1
+      - path: arm_muscles_1
+        weight: 1
+      - path: arm_muscles_2
+        weight: 1
+      - path: arm_muscles_2_2
+        weight: 1
+      - path: arm_muscles_3
+        weight: 1
+      - path: arm_muscles_4
+        weight: 1
+      - path: arm_muscles_5
+        weight: 1
+      - path: arm_muscles_6
+        weight: 1
+      - path: arm_muscles_7
+        weight: 1
+      - path: arm_muscles_8
+        weight: 1
+      - path: arm_muscles_9
+        weight: 1
+      - path: arm_muscles_10
+        weight: 1
+      - path: arm_muscles_11
+        weight: 1
+      - path: arm_muscles_12
+        weight: 1
+      - path: arm_muscles_13
+        weight: 1
+      - path: arm_muscles_14
+        weight: 1
+      - path: arm_muscles_15
+        weight: 1
+      - path: arm_muscles_16
+        weight: 1
+      - path: arm_muscles_17
+        weight: 1
+      - path: arm_muscles_18
+        weight: 1
+      - path: arm_muscles_19
+        weight: 1
+      - path: arm_muscles_20
+        weight: 1
+      - path: arm_muscles_21
+        weight: 1
+      - path: arm_muscles_22
+        weight: 1
+      - path: arm_muscles_23
+        weight: 1
+      - path: arm_muscles_24
+        weight: 1
+      - path: arm_muscles_25
+        weight: 1
+      - path: arm_muscles_26
+        weight: 1
+      - path: arm_muscles_27
+        weight: 1
+      - path: arm_muscles_28
+        weight: 1
+      - path: arm_muscles_29
+        weight: 1
+      - path: arm_muscles_30
+        weight: 1
+      - path: arm_muscles_31
+        weight: 1
+      - path: arm_muscles_32
+        weight: 1
+      - path: arm_muscles_33
+        weight: 1
+      - path: arm_muscles_v
+        weight: 1
+      - path: skeletal_Cube_Cube_Cube
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: expand
+      takeName: C4D Animation Take
+      firstFrame: 3
+      lastFrame: 31
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: arm_muscles
+        weight: 1
+      - path: arm_muscles_1
+        weight: 1
+      - path: arm_muscles_2
+        weight: 1
+      - path: arm_muscles_2_2
+        weight: 1
+      - path: arm_muscles_3
+        weight: 1
+      - path: arm_muscles_4
+        weight: 1
+      - path: arm_muscles_5
+        weight: 1
+      - path: arm_muscles_6
+        weight: 1
+      - path: arm_muscles_7
+        weight: 1
+      - path: arm_muscles_8
+        weight: 1
+      - path: arm_muscles_9
+        weight: 1
+      - path: arm_muscles_10
+        weight: 1
+      - path: arm_muscles_11
+        weight: 1
+      - path: arm_muscles_12
+        weight: 1
+      - path: arm_muscles_13
+        weight: 1
+      - path: arm_muscles_14
+        weight: 1
+      - path: arm_muscles_15
+        weight: 1
+      - path: arm_muscles_16
+        weight: 1
+      - path: arm_muscles_17
+        weight: 1
+      - path: arm_muscles_18
+        weight: 1
+      - path: arm_muscles_19
+        weight: 1
+      - path: arm_muscles_20
+        weight: 1
+      - path: arm_muscles_21
+        weight: 1
+      - path: arm_muscles_22
+        weight: 1
+      - path: arm_muscles_23
+        weight: 1
+      - path: arm_muscles_24
+        weight: 1
+      - path: arm_muscles_25
+        weight: 1
+      - path: arm_muscles_26
+        weight: 1
+      - path: arm_muscles_27
+        weight: 1
+      - path: arm_muscles_28
+        weight: 1
+      - path: arm_muscles_29
+        weight: 1
+      - path: arm_muscles_30
+        weight: 1
+      - path: arm_muscles_31
+        weight: 1
+      - path: arm_muscles_32
+        weight: 1
+      - path: arm_muscles_33
+        weight: 1
+      - path: arm_muscles_v
+        weight: 1
+      - path: skeletal_Cube_Cube_Cube
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: join
+      takeName: C4D Animation Take
+      firstFrame: 31
+      lastFrame: 60
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: arm_muscles
+        weight: 1
+      - path: arm_muscles_1
+        weight: 1
+      - path: arm_muscles_2
+        weight: 1
+      - path: arm_muscles_2_2
+        weight: 1
+      - path: arm_muscles_3
+        weight: 1
+      - path: arm_muscles_4
+        weight: 1
+      - path: arm_muscles_5
+        weight: 1
+      - path: arm_muscles_6
+        weight: 1
+      - path: arm_muscles_7
+        weight: 1
+      - path: arm_muscles_8
+        weight: 1
+      - path: arm_muscles_9
+        weight: 1
+      - path: arm_muscles_10
+        weight: 1
+      - path: arm_muscles_11
+        weight: 1
+      - path: arm_muscles_12
+        weight: 1
+      - path: arm_muscles_13
+        weight: 1
+      - path: arm_muscles_14
+        weight: 1
+      - path: arm_muscles_15
+        weight: 1
+      - path: arm_muscles_16
+        weight: 1
+      - path: arm_muscles_17
+        weight: 1
+      - path: arm_muscles_18
+        weight: 1
+      - path: arm_muscles_19
+        weight: 1
+      - path: arm_muscles_20
+        weight: 1
+      - path: arm_muscles_21
+        weight: 1
+      - path: arm_muscles_22
+        weight: 1
+      - path: arm_muscles_23
+        weight: 1
+      - path: arm_muscles_24
+        weight: 1
+      - path: arm_muscles_25
+        weight: 1
+      - path: arm_muscles_26
+        weight: 1
+      - path: arm_muscles_27
+        weight: 1
+      - path: arm_muscles_28
+        weight: 1
+      - path: arm_muscles_29
+        weight: 1
+      - path: arm_muscles_30
+        weight: 1
+      - path: arm_muscles_31
+        weight: 1
+      - path: arm_muscles_32
+        weight: 1
+      - path: arm_muscles_33
+        weight: 1
+      - path: arm_muscles_v
+        weight: 1
+      - path: skeletal_Cube_Cube_Cube
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 1
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
