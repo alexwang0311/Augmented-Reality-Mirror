@@ -1,16 +1,26 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MySceneController : MonoBehaviour {
+    private string sceneName;
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    private void Start()
+    {
+        sceneName = SceneManager.GetActiveScene().name;
+    }
+
+    public void SwitchScene()
+    {
+        if (sceneName == "Bone")
+        {
+            SceneManager.LoadScene("Muscle");
+        }
+
+        if (sceneName == "Muscle")
+        {
+            SceneManager.LoadScene("Bone");
+        }
+    }
 }
