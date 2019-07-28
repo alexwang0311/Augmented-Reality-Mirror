@@ -319,7 +319,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Texture: {fileID: 2800000, guid: da6c330f13c131746ac959eaba90c3ca, type: 3}
+  m_Texture: {fileID: 2800000, guid: 01e7faa32466d66419510f8774abdc45, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -387,7 +387,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Texture: {fileID: 2800000, guid: 7bdfb55df1e513a48a630339bb779062, type: 3}
+  m_Texture: {fileID: 2800000, guid: 8f84152ac50e1ec42ab0ddd2995a4e8c, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -601,7 +601,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Texture: {fileID: 2800000, guid: 701e9eaedc2c800478db6606087cef05, type: 3}
+  m_Texture: {fileID: 2800000, guid: de976d8d51224854d8f6ab3cdf983ffc, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -651,7 +651,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Texture: {fileID: 2800000, guid: 53a8c066450f68c4fb548a62cdb8123d, type: 3}
+  m_Texture: {fileID: 2800000, guid: 5646164a85f167b4ab6f4e1e0313318f, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -718,31 +718,31 @@ MonoBehaviour:
     type: 2}
   Prefab_BaseSpine_MidSpine: {fileID: 1940542505492760, guid: db6076adff1342f419c3d78b7b3b918f,
     type: 2}
-  Prefab_LeftShoulder_LeftElbow: {fileID: 1878650818997902, guid: 8ba5b07f252242c498c0a6070abd5acf,
+  Prefab_LeftShoulder_LeftElbow: {fileID: 1223408171059000, guid: 4872820916e02da47bf41d917738ba8e,
     type: 2}
-  Prefab_LeftElbow_LeftWrist: {fileID: 1011503815991606, guid: 3aa97296db41ad347b337dfe2c678427,
+  Prefab_LeftElbow_LeftWrist: {fileID: 1837805077525500, guid: 7eb1203783934b342bed7a9b63ba9854,
     type: 2}
   Prefab_ShoudlerSpine_LeftShoulder: {fileID: 1933337829016554, guid: 95c99fbcffb96e0438203797bc18f65c,
     type: 2}
   Prefab_ShoulderSpine_RightShoulder: {fileID: 1511556746136670, guid: 5660dcd6cffdb0e429a099f127b11610,
     type: 2}
-  Prefab_RightShoulder_RightElbow: {fileID: 1878650818997902, guid: 8ba5b07f252242c498c0a6070abd5acf,
+  Prefab_RightShoulder_RightElbow: {fileID: 1469017762407960, guid: fa1d00aef06de394ab50010e31053e9b,
     type: 2}
-  Prefab_RightElbow_RightWrist: {fileID: 1011503815991606, guid: 3aa97296db41ad347b337dfe2c678427,
+  Prefab_RightElbow_RightWrist: {fileID: 1708264218623932, guid: a143784357ffabb468622506be733bbf,
     type: 2}
   Prefab_ShoulderSpine_Neck: {fileID: 1019149159165302, guid: 3e57d166e8c94f14482b178021a9f4d4,
     type: 2}
   Prefab_BaseSpine_LeftHip: {fileID: 1901415044764098, guid: 23ad5aea179c0784a95a80ee09e021ea,
     type: 2}
-  Prefab_LeftHip_LeftKnee: {fileID: 1326787505410280, guid: a39c9186344bf1d4098d2d5f401b5f02,
+  Prefab_LeftHip_LeftKnee: {fileID: 1436503451362216, guid: f74edb64401b0454f807e8b7c7ea6d1c,
     type: 2}
-  Prefab_LeftKnee_LeftFoot: {fileID: 1863632218076670, guid: 924b5d6d64aecb9429d6ca1f94fd458f,
+  Prefab_LeftKnee_LeftFoot: {fileID: 1538259618599066, guid: f0f5dc6a72f342e4b8ef2384dbbee96f,
     type: 2}
   Prefab_BaseSpine_RightHip: {fileID: 1566752785709934, guid: 10554b580da38564fa71944c4c1be745,
     type: 2}
-  Prefab_RightHip_RightKnee: {fileID: 1005966235980610, guid: 7da9465b41d335f4e9e1cf9ef8aca745,
+  Prefab_RightHip_RightKnee: {fileID: 1434618710860936, guid: c6b9b6b1563f42f479242d4838448e1e,
     type: 2}
-  Prefab_RightKnee_RightFoot: {fileID: 1192905060110064, guid: cc5e8232de15ccd42b437f7ed5a04a38,
+  Prefab_RightKnee_RightFoot: {fileID: 1254820503849996, guid: 3eb5948ca65f05e4186896d25a6fd43a,
     type: 2}
   Prefab_Head_bone: {fileID: 1354505891590534, guid: 8ef33162ace1d834e9b6e69c9d84a1a4,
     type: 2}
@@ -818,7 +818,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Texture: {fileID: 2800000, guid: 915dc5e914632824e9d319a1fa7ba0ad, type: 3}
+  m_Texture: {fileID: 2800000, guid: ac9edd655c7581649a354facdecc12cd, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -1335,7 +1335,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Texture: {fileID: 2800000, guid: 44de0995b765a864daf064617457edaa, type: 3}
+  m_Texture: {fileID: 2800000, guid: 4e30c6bfc809afc429e0d25654018b6c, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -1612,7 +1612,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Texture: {fileID: 2800000, guid: 190348ee08825234db7f5c1bfc9abee3, type: 3}
+  m_Texture: {fileID: 2800000, guid: 52bb820e1ed6aca498c4b3faa0c1df71, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -1901,7 +1901,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Texture: {fileID: 2800000, guid: ac5211b160ebf9a4a8231af7b47cac8b, type: 3}
+  m_Texture: {fileID: 2800000, guid: e5b85d91ecc65ef47a5fbe7711535b19, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0

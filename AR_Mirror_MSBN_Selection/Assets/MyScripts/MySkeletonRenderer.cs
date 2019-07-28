@@ -1,6 +1,7 @@
 ﻿/* Created by: Alex Wang
  * Date: 07/27/2019
  * MySkeletonRenderer is responsible for creating and rendering the joints and the bones.
+ * It only renders the skeleton of the body that was detected by Orbbec the first.
  * It is adapted from the original SkeletonRenderer from the Astra Orbbec SDK 2.0.16.
  */
 using UnityEngine.UI;
@@ -22,23 +23,6 @@ public class MySkeletonRenderer : MonoBehaviour
 
     public GameObject JointPrefab;
     public Transform JointRoot;
-
-    public Toggle ToggleSeg = null;
-    public Toggle ToggleSegBody = null;
-    public Toggle ToggleSegBodyHand = null;
-
-    public Toggle ToggleProfileFull = null;
-    public Toggle ToggleProfileUpperBody = null;
-    public Toggle ToggleProfileBasic = null;
-
-    public Toggle ToggleOptimizationAccuracy = null;
-    public Toggle ToggleOptimizationBalanced = null;
-    public Toggle ToggleOptimizationMemory = null;
-    public Slider SliderOptimization = null;
-
-    private Astra.BodyTrackingFeatures _previousTargetFeatures = Astra.BodyTrackingFeatures.HandPose;
-    private Astra.SkeletonProfile _previousSkeletonProfile = Astra.SkeletonProfile.Full;
-    private Astra.SkeletonOptimization _previousSkeletonOptimization = Astra.SkeletonOptimization.BestAccuracy;
 
     #region 3d body model prefabs
     //Bone Prefabs
@@ -122,7 +106,6 @@ public class MySkeletonRenderer : MonoBehaviour
      */
     private Astra.JointType selectionJointTypeA = Astra.JointType.LeftHand;     //use which joint(s) type as your selectionJoint
     private Astra.JointType selectionJointTypeB = Astra.JointType.RightHand;
-    //public GameObject SelectionJointPrefab;
     public static string selectedBoneName = "";
 
     private float baseSpineX = 0, leftHipX = 0, shoulderSpineY = 0, neckY = 0;
@@ -196,27 +179,6 @@ public class MySkeletonRenderer : MonoBehaviour
     {
         return (joint.ToString().Split(' ')[1]).Split(',')[0];
     }
-
-    IEnumerator GetRequest(string uri)
-    {
-        using (UnityWebRequest webRequest = UnityWebRequest.Get(uri))
-        {
-            // Request and wait for the desired page.
-            yield return webRequest.SendWebRequest();
-
-            string[] pages = uri.Split('/');
-            int page = pages.Length - 1;
-
-            if (webRequest.isNetworkError)
-            {
-                Debug.Log(pages[page] + ": Error: " + webRequest.error);
-            }
-            else
-            {
-                Debug.Log(pages[page] + ":\nReceived: " + webRequest.downloadHandler.text);
-            }
-        }
-    }
     #endregion
 
     void Start()
@@ -275,7 +237,6 @@ public class MySkeletonRenderer : MonoBehaviour
     {
         var body = GetFirstBody(bodies);
         if (body != null) {
-
             //Render the joints
             for (int i = 0; i < body.Joints.Length; i++)
             {
@@ -296,7 +257,7 @@ public class MySkeletonRenderer : MonoBehaviour
                                     bodyJoint.WorldPosition.Z / 1000f);
 
 
-                    //skel.Joints[i].Orient.Matrix:
+                    //skeletonJoint.Orient.Matrix:
                     // 0, 			1,	 		2,
                     // 3, 			4, 			5,
                     // 6, 			7, 			8
