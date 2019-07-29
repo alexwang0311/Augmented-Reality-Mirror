@@ -46,8 +46,8 @@ public class MySkeletonRenderer : MonoBehaviour
     public GameObject Prefab_LeftHand;
     public GameObject Prefab_RightHand;
 
-    private readonly float TestBoneThickness = 1f;
-    private readonly float HeadBoneThickness = 0.2f;
+    public float TestBoneThickness;
+    public float HeadBoneThickness;
 
     #endregion
 

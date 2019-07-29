@@ -12,8 +12,7 @@ public class MyAstraController : AstraController {
 
     private void Awake()
     {
-        Screen.SetResolution(720, 1280, true);
-
+        Screen.SetResolution(1920, 1080, true);
         //Initilialize the camera
         AstraUnityContext.Instance.Initialize();
 

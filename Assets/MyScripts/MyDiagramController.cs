@@ -3,8 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class MyDiagramController : MonoBehaviour {
-    
-
     public GameObject Left_Forearm;
     public GameObject Right_Forearm;
     public GameObject ShoulderSpine_MidSpine;
