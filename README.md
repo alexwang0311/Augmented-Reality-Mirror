@@ -35,12 +35,12 @@ https://github.com/alexwang0311/Augmented-Reality-Mirror/assets/46534502/9dcbeb6
 
 ### Notes
 This project aims to develop a demonstration platform for communicating the scientific results to a lay
-audience (targeting K-12) while providing a framework to offer research experiences to young
+audience (targeting K 12) while providing a framework to offer research experiences to young
 (underrepresented) scientists and high school teachers. New interactive course modules will be
 developed using this project. These modules will be targeted to a broad range of abilities from high
 school math/science/programming classes to graduate-level seminars. The Augmented Reality Mirror is
 an open-source rendering software to provide users with a virtual reality experience. With the provisions
-of a projection display, a laptop with multi-core GPU, and XBOX Kinect, users can stand in front of the
+of a projection display, a laptop with a multi-core GPU, and an Astra Orbbec camera, users can stand in front of the
 mirror and representative anatomical images will overlay the body. The images implemented are
 adapted to approximate the actual anatomy. The open-source software will have an application
 programming interface (API) to allow users to develop additional content within the Augmented Reality
