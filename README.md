@@ -46,6 +46,10 @@ adapted to approximate the actual anatomy. The open-source software will have an
 programming interface (API) to allow users to develop additional content within the Augmented Reality
 Mirror.
 
+### Links
+[MASI](https://my.vanderbilt.edu/masi/about-us/resources-2/) <br>
+[NITRC](https://www.nitrc.org/projects/ar_mirror/)
+
 ## Contact
 
 This project has been archived. If you have any questions, please feel free to reach out.
